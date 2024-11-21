@@ -3,9 +3,8 @@
 ### Project Setup
 
 ```bash
-python -m venv venv
-source venv/bin/activate
-pip install django djangorestframework django-cors-headers
+pipenv shell
+pipenv install django djangorestframework django-cors-headers
 django-admin startproject color_project
 cd color_project
 python manage.py startapp colors
