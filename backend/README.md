@@ -4,10 +4,9 @@
 
 ```bash
 pipenv shell
-pipenv install django djangorestframework django-cors-headers
-django-admin startproject color_project
+pipenv install
 cd color_project
-python manage.py startapp colors
+python manage.py runserver
 ```
 
 ### Project Structure
